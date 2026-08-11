@@ -9,6 +9,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
 
 </div>
@@ -19,19 +20,20 @@
 
 **Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, and real-world applications.
 
-The repository demonstrates the deep learning workflow from data preparation and preprocessing to model architecture, training, evaluation, and prediction.
+The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, evaluation, visualization, and prediction.
 
-More deep learning models and applications will be added as the repository grows.
+The collection will continue to grow with additional deep learning models, architectures, and practical applications.
 
 ---
 
 # 🚀 Repository Highlights
 
 - 🧠 Deep Neural Networks
+- 🔥 Convolutional Neural Networks (CNNs)
 - 👁️ Computer Vision
 - 🖼️ Image Classification
-- 🔥 Convolutional Neural Networks (CNNs)
-- 🏗️ Pretrained Architectures
+- 🏗️ Neural Network Architectures
+- 🔗 Keras Sequential & Functional APIs
 - 📊 Model Training & Evaluation
 - 🧹 Data Preprocessing
 - 📈 Performance Visualization
@@ -47,7 +49,7 @@ More deep learning models and applications will be added as the repository grows
 
 Implementation of the **AlexNet convolutional neural network architecture** for classifying images of cats and dogs.
 
-The project demonstrates the use of a deep CNN architecture for image classification and covers the complete workflow from image data preparation to model training and evaluation.
+The project demonstrates the application of a CNN architecture to image classification and covers the workflow from image preparation and preprocessing to model training and evaluation.
 
 **Topics Covered:**
 
@@ -58,12 +60,49 @@ The project demonstrates the use of a deep CNN architecture for image classifica
 - Data Augmentation
 - Model Training
 - Model Evaluation
-- Classification Performance
 - Computer Vision
+- Classification Performance
+
+---
+
+## 🧠 Neural Networks
+
+### 2. Keras Functional API
+
+Implementation of a neural network using the **Keras Functional API** for regression on the California Housing dataset.
+
+The notebook demonstrates both the **Sequential API** and the **Functional API**, highlighting how functional models can handle multiple inputs, branching layers, and layer concatenation.
+
+**Topics Covered:**
+
+- TensorFlow & Keras
+- Sequential API
+- Functional API
+- Neural Network Architecture
+- Multiple Input Layers
+- Batch Normalization
+- Dense Layers
+- ReLU Activation
+- Layer Concatenation
+- Linear Output Layer
+- Regression
+- Model Training
+- Training & Validation Loss
+- RMSE Evaluation
+- Model Visualization
 
 **Dataset:**
 
-- Cats and Dogs Images
+- California Housing Dataset
+
+**Model Architecture:**
+
+- Multiple input branches
+- Batch Normalization
+- Dense hidden layers
+- ReLU activation
+- Concatenation layer
+- Linear output layer
 
 ---
 
@@ -73,17 +112,34 @@ The project demonstrates the use of a deep CNN architecture for image classifica
 
 - Neural Networks
 - Deep Neural Networks
-- Convolutional Neural Networks
+- Model Architecture
 - Model Training
 - Model Evaluation
+- Batch Normalization
+- Activation Functions
 
 ## 👁️ Computer Vision
 
 - Image Classification
 - Image Preprocessing
-- Image Augmentation
+- Data Augmentation
 - Feature Extraction
 - CNN-Based Classification
+
+## 🔗 Keras APIs
+
+- Sequential API
+- Functional API
+- Multiple Input Models
+- Layer Concatenation
+
+## 📈 Regression
+
+- Neural Network Regression
+- Linear Output Activation
+- Mean Squared Error
+- Root Mean Squared Error (RMSE)
+- Training & Validation Loss
 
 ## 🏗️ CNN Architectures
 
@@ -102,14 +158,19 @@ The project demonstrates the use of a deep CNN architecture for image classifica
 - TensorFlow
 - Keras
 
-### Data Processing
+### Machine Learning
 
-- NumPy
+- Scikit-Learn
+
+### Data Analysis
+
 - Pandas
+- NumPy
 
 ### Visualization
 
 - Matplotlib
+- Seaborn
 
 ### Development Tools
 
@@ -123,27 +184,31 @@ The project demonstrates the use of a deep CNN architecture for image classifica
 
 1. Data Collection
 2. Data Preprocessing
-3. Image Preparation
-4. Data Augmentation
-5. Model Architecture
-6. Model Training
-7. Model Validation
-8. Model Evaluation
-9. Prediction
-10. Performance Analysis
+3. Data Preparation
+4. Feature Processing
+5. Model Architecture Design
+6. Model Compilation
+7. Model Training
+8. Validation
+9. Model Evaluation
+10. Prediction
+11. Performance Analysis
 
 ---
 
 # ✨ Features
 
 - Practical Deep Learning Implementations
-- Image Classification Projects
-- CNN Architectures
 - Step-by-Step Jupyter Notebooks
-- Model Training and Evaluation
+- Neural Network Architectures
+- CNN-Based Image Classification
+- Keras Sequential API
+- Keras Functional API
+- Multiple Input Neural Networks
 - Data Preprocessing
-- Performance Analysis
-- Real-World Computer Vision Applications
+- Model Training and Evaluation
+- Performance Visualization
+- Real-World Datasets
 
 ---
 
@@ -157,9 +222,14 @@ The project demonstrates the use of a deep CNN architecture for image classifica
 - Image Classification
 - Image Preprocessing
 - Data Augmentation
+- TensorFlow & Keras
+- Sequential API
+- Functional API
+- Neural Network Regression
+- Batch Normalization
 - Model Training
 - Model Evaluation
-- Predictive Modeling
+- Performance Analysis
 
 ---
 
@@ -173,8 +243,12 @@ This repository helps in understanding:
 - AlexNet
 - Image Classification
 - Computer Vision
-- Image Preprocessing
-- Data Augmentation
+- Sequential API
+- Functional API
+- Multiple Input Neural Networks
+- Batch Normalization
+- Activation Functions
+- Neural Network Regression
 - Model Training
 - Model Evaluation
 - Deep Learning Workflows
@@ -220,9 +294,11 @@ jupyter notebook
 * Image Segmentation
 * Recurrent Neural Networks
 * LSTM Networks
+* Autoencoders
 * Generative AI Projects
 * Model Deployment
 * Deep Learning APIs
+* Hyperparameter Optimization
 
 ---
 
