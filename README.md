@@ -1,4 +1,4 @@
-````markdown
+
 <div align="center">
 
 # 🧠 Deep Learning Projects
@@ -332,4 +332,4 @@ jupyter notebook
 ### 🚧 More Deep Learning Projects Coming Soon!
 
 </div>
-```
+
