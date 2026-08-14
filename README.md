@@ -1,3 +1,4 @@
+````markdown
 <div align="center">
 
 # 🧠 Deep Learning Projects
@@ -18,9 +19,9 @@
 
 # 📖 About
 
-**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, and real-world applications.
+**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, model optimization, and real-world applications.
 
-The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, evaluation, visualization, and prediction.
+The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, hyperparameter optimization, evaluation, visualization, and prediction.
 
 The collection will continue to grow with additional deep learning models, architectures, and practical applications.
 
@@ -34,6 +35,7 @@ The collection will continue to grow with additional deep learning models, archi
 - 🖼️ Image Classification
 - 🏗️ Neural Network Architectures
 - 🔗 Keras Sequential & Functional APIs
+- ⚙️ Hyperparameter Tuning
 - 📊 Model Training & Evaluation
 - 🧹 Data Preprocessing
 - 📈 Performance Visualization
@@ -49,7 +51,7 @@ The collection will continue to grow with additional deep learning models, archi
 
 Implementation of the **AlexNet convolutional neural network architecture** for classifying images of cats and dogs.
 
-The project demonstrates the application of a CNN architecture to image classification and covers the workflow from image preparation and preprocessing to model training and evaluation.
+The project demonstrates the application of a CNN architecture to image classification, covering image preparation, preprocessing, model training, and evaluation.
 
 **Topics Covered:**
 
@@ -63,15 +65,17 @@ The project demonstrates the application of a CNN architecture to image classifi
 - Computer Vision
 - Classification Performance
 
+**Dataset:**
+
+- Cats and Dogs Images
+
 ---
 
 ## 🧠 Neural Networks
 
 ### 2. Keras Functional API
 
-Implementation of a neural network using the **Keras Functional API** for regression on the California Housing dataset.
-
-The notebook demonstrates both the **Sequential API** and the **Functional API**, highlighting how functional models can handle multiple inputs, branching layers, and layer concatenation.
+Implementation of neural networks using the **Keras Functional API**, demonstrating flexible model architecture design and multiple-input neural network structures.
 
 **Topics Covered:**
 
@@ -84,10 +88,9 @@ The notebook demonstrates both the **Sequential API** and the **Functional API**
 - Dense Layers
 - ReLU Activation
 - Layer Concatenation
-- Linear Output Layer
 - Regression
 - Model Training
-- Training & Validation Loss
+- Validation
 - RMSE Evaluation
 - Model Visualization
 
@@ -95,14 +98,26 @@ The notebook demonstrates both the **Sequential API** and the **Functional API**
 
 - California Housing Dataset
 
-**Model Architecture:**
+---
 
-- Multiple input branches
-- Batch Normalization
-- Dense hidden layers
-- ReLU activation
-- Concatenation layer
-- Linear output layer
+## ⚙️ Model Optimization
+
+### 3. Hyperparameter Tuning
+
+Implementation of **hyperparameter tuning techniques** for improving deep learning model performance by systematically experimenting with different model and training configurations.
+
+The project demonstrates how hyperparameter optimization can be used to identify better-performing configurations and improve model training results.
+
+**Topics Covered:**
+
+- Hyperparameter Optimization
+- Model Configuration
+- Parameter Search
+- Model Training
+- Validation
+- Performance Evaluation
+- Model Comparison
+- Optimization of Deep Learning Models
 
 ---
 
@@ -117,6 +132,7 @@ The notebook demonstrates both the **Sequential API** and the **Functional API**
 - Model Evaluation
 - Batch Normalization
 - Activation Functions
+- Hyperparameter Optimization
 
 ## 👁️ Computer Vision
 
@@ -133,13 +149,13 @@ The notebook demonstrates both the **Sequential API** and the **Functional API**
 - Multiple Input Models
 - Layer Concatenation
 
-## 📈 Regression
+## 📈 Model Optimization
 
-- Neural Network Regression
-- Linear Output Activation
-- Mean Squared Error
-- Root Mean Squared Error (RMSE)
-- Training & Validation Loss
+- Hyperparameter Tuning
+- Parameter Search
+- Model Comparison
+- Validation
+- Performance Optimization
 
 ## 🏗️ CNN Architectures
 
@@ -188,11 +204,13 @@ The notebook demonstrates both the **Sequential API** and the **Functional API**
 4. Feature Processing
 5. Model Architecture Design
 6. Model Compilation
-7. Model Training
-8. Validation
-9. Model Evaluation
-10. Prediction
-11. Performance Analysis
+7. Hyperparameter Configuration
+8. Model Training
+9. Validation
+10. Model Evaluation
+11. Model Optimization
+12. Prediction
+13. Performance Analysis
 
 ---
 
@@ -205,10 +223,12 @@ The notebook demonstrates both the **Sequential API** and the **Functional API**
 - Keras Sequential API
 - Keras Functional API
 - Multiple Input Neural Networks
+- Hyperparameter Tuning
 - Data Preprocessing
 - Model Training and Evaluation
 - Performance Visualization
 - Real-World Datasets
+- Model Optimization Techniques
 
 ---
 
@@ -227,6 +247,8 @@ The notebook demonstrates both the **Sequential API** and the **Functional API**
 - Functional API
 - Neural Network Regression
 - Batch Normalization
+- Hyperparameter Tuning
+- Model Optimization
 - Model Training
 - Model Evaluation
 - Performance Analysis
@@ -249,6 +271,8 @@ This repository helps in understanding:
 - Batch Normalization
 - Activation Functions
 - Neural Network Regression
+- Hyperparameter Tuning
+- Model Optimization
 - Model Training
 - Model Evaluation
 - Deep Learning Workflows
@@ -296,9 +320,10 @@ jupyter notebook
 * LSTM Networks
 * Autoencoders
 * Generative AI Projects
+* Advanced Hyperparameter Optimization
 * Model Deployment
 * Deep Learning APIs
-* Hyperparameter Optimization
+* Cloud Deployment
 
 ---
 
@@ -307,3 +332,4 @@ jupyter notebook
 ### 🚧 More Deep Learning Projects Coming Soon!
 
 </div>
+```
