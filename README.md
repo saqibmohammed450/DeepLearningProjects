@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 🧠 Deep Learning Projects
@@ -51,8 +50,6 @@ The collection will continue to grow with additional deep learning models, archi
 
 Implementation of the **AlexNet convolutional neural network architecture** for classifying images of cats and dogs.
 
-The project demonstrates the application of a CNN architecture to image classification, covering image preparation, preprocessing, model training, and evaluation.
-
 **Topics Covered:**
 
 - Image Classification
@@ -71,9 +68,31 @@ The project demonstrates the application of a CNN architecture to image classifi
 
 ---
 
+### 2. LeNet - CIFAR-10 Image Classification
+
+Implementation of the **LeNet convolutional neural network architecture** using the CIFAR-10 dataset for image classification.
+
+**Topics Covered:**
+
+- Image Classification
+- Convolutional Neural Networks
+- LeNet Architecture
+- CIFAR-10 Dataset
+- Image Preprocessing
+- Model Training
+- Model Evaluation
+- Computer Vision
+- Classification Performance
+
+**Dataset:**
+
+- CIFAR-10
+
+---
+
 ## 🧠 Neural Networks
 
-### 2. Keras Functional API
+### 3. Keras Functional API
 
 Implementation of neural networks using the **Keras Functional API**, demonstrating flexible model architecture design and multiple-input neural network structures.
 
@@ -102,22 +121,20 @@ Implementation of neural networks using the **Keras Functional API**, demonstrat
 
 ## ⚙️ Model Optimization
 
-### 3. Hyperparameter Tuning
+### 4. Hyperparameter Tuning
 
-Implementation of **hyperparameter tuning techniques** for improving deep learning model performance by systematically experimenting with different model and training configurations.
-
-The project demonstrates how hyperparameter optimization can be used to identify better-performing configurations and improve model training results.
+Implementation of **hyperparameter tuning techniques** for improving model performance by experimenting with different model and training configurations.
 
 **Topics Covered:**
 
 - Hyperparameter Optimization
-- Model Configuration
 - Parameter Search
+- Model Configuration
 - Model Training
 - Validation
 - Performance Evaluation
 - Model Comparison
-- Optimization of Deep Learning Models
+- Model Optimization
 
 ---
 
@@ -149,7 +166,7 @@ The project demonstrates how hyperparameter optimization can be used to identify
 - Multiple Input Models
 - Layer Concatenation
 
-## 📈 Model Optimization
+## ⚙️ Model Optimization
 
 - Hyperparameter Tuning
 - Parameter Search
@@ -160,6 +177,7 @@ The project demonstrates how hyperparameter optimization can be used to identify
 ## 🏗️ CNN Architectures
 
 - AlexNet
+- LeNet
 
 ---
 
@@ -220,6 +238,9 @@ The project demonstrates how hyperparameter optimization can be used to identify
 - Step-by-Step Jupyter Notebooks
 - Neural Network Architectures
 - CNN-Based Image Classification
+- AlexNet Implementation
+- LeNet Implementation
+- CIFAR-10 Image Classification
 - Keras Sequential API
 - Keras Functional API
 - Multiple Input Neural Networks
@@ -227,8 +248,8 @@ The project demonstrates how hyperparameter optimization can be used to identify
 - Data Preprocessing
 - Model Training and Evaluation
 - Performance Visualization
-- Real-World Datasets
 - Model Optimization Techniques
+- Real-World Datasets
 
 ---
 
@@ -263,7 +284,8 @@ This repository helps in understanding:
 - Neural Network Architectures
 - Convolutional Neural Networks
 - AlexNet
-- Image Classification
+- LeNet
+- CIFAR-10 Image Classification
 - Computer Vision
 - Sequential API
 - Functional API
@@ -332,4 +354,3 @@ jupyter notebook
 ### 🚧 More Deep Learning Projects Coming Soon!
 
 </div>
-
