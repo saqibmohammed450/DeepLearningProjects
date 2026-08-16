@@ -70,7 +70,7 @@ Implementation of the **AlexNet convolutional neural network architecture** for 
 
 ### 2. LeNet - CIFAR-10 Image Classification
 
-Implementation of the **LeNet convolutional neural network architecture** using the CIFAR-10 dataset for image classification.
+Implementation of the **LeNet convolutional neural network architecture** for image classification using the CIFAR-10 dataset.
 
 **Topics Covered:**
 
@@ -90,9 +90,36 @@ Implementation of the **LeNet convolutional neural network architecture** using 
 
 ---
 
+### 3. LeNet - MNIST Digit Classification
+
+Implementation of the **LeNet convolutional neural network architecture** for handwritten digit classification using the MNIST dataset.
+
+The project demonstrates how a classic CNN architecture can be applied to recognize handwritten digits through image preprocessing, model training, and evaluation.
+
+**Topics Covered:**
+
+- Handwritten Digit Classification
+- Convolutional Neural Networks
+- LeNet Architecture
+- MNIST Dataset
+- Image Preprocessing
+- Convolutional Layers
+- Pooling Layers
+- Dense Layers
+- Model Training
+- Model Evaluation
+- Prediction
+- Computer Vision
+
+**Dataset:**
+
+- MNIST Handwritten Digits
+
+---
+
 ## 🧠 Neural Networks
 
-### 3. Keras Functional API
+### 4. Keras Functional API
 
 Implementation of neural networks using the **Keras Functional API**, demonstrating flexible model architecture design and multiple-input neural network structures.
 
@@ -121,7 +148,7 @@ Implementation of neural networks using the **Keras Functional API**, demonstrat
 
 ## ⚙️ Model Optimization
 
-### 4. Hyperparameter Tuning
+### 5. Hyperparameter Tuning
 
 Implementation of **hyperparameter tuning techniques** for improving model performance by experimenting with different model and training configurations.
 
@@ -154,6 +181,7 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 ## 👁️ Computer Vision
 
 - Image Classification
+- Handwritten Digit Recognition
 - Image Preprocessing
 - Data Augmentation
 - Feature Extraction
@@ -240,6 +268,7 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - CNN-Based Image Classification
 - AlexNet Implementation
 - LeNet Implementation
+- MNIST Digit Classification
 - CIFAR-10 Image Classification
 - Keras Sequential API
 - Keras Functional API
@@ -261,6 +290,7 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Convolutional Neural Networks
 - Computer Vision
 - Image Classification
+- Handwritten Digit Recognition
 - Image Preprocessing
 - Data Augmentation
 - TensorFlow & Keras
@@ -285,6 +315,7 @@ This repository helps in understanding:
 - Convolutional Neural Networks
 - AlexNet
 - LeNet
+- MNIST Digit Classification
 - CIFAR-10 Image Classification
 - Computer Vision
 - Sequential API
