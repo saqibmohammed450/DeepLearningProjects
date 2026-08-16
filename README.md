@@ -18,11 +18,9 @@
 
 # 📖 About
 
-**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, model optimization, and real-world applications.
+**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, natural language processing, model optimization, and real-world applications.
 
 The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, hyperparameter optimization, evaluation, visualization, and prediction.
-
-The collection will continue to grow with additional deep learning models, architectures, and practical applications.
 
 ---
 
@@ -31,7 +29,11 @@ The collection will continue to grow with additional deep learning models, archi
 - 🧠 Deep Neural Networks
 - 🔥 Convolutional Neural Networks (CNNs)
 - 👁️ Computer Vision
-- 🖼️ Image Classification
+- 📝 Natural Language Processing
+- 🔤 Text Classification
+- 🔄 Recurrent Neural Networks
+- 🧬 LSTM Networks
+- ↔️ Bidirectional RNNs
 - 🏗️ Neural Network Architectures
 - 🔗 Keras Sequential & Functional APIs
 - ⚙️ Hyperparameter Tuning
@@ -94,8 +96,6 @@ Implementation of the **LeNet convolutional neural network architecture** for im
 
 Implementation of the **LeNet convolutional neural network architecture** for handwritten digit classification using the MNIST dataset.
 
-The project demonstrates how a classic CNN architecture can be applied to recognize handwritten digits through image preprocessing, model training, and evaluation.
-
 **Topics Covered:**
 
 - Handwritten Digit Classification
@@ -117,9 +117,51 @@ The project demonstrates how a classic CNN architecture can be applied to recogn
 
 ---
 
+## 📝 Natural Language Processing
+
+### 4. LSTM & Bidirectional RNN - IMDB Sentiment Analysis
+
+Implementation of **LSTM and Bidirectional SimpleRNN architectures** for binary sentiment classification of movie reviews using the IMDB Movie Review Sentiment Analysis dataset. The notebook includes extensive text preprocessing, sequence tokenization, padding, model training, evaluation, and sentiment prediction. :contentReference[oaicite:0]{index=0}
+
+**Topics Covered:**
+
+- Natural Language Processing
+- Sentiment Analysis
+- Text Classification
+- Text Cleaning
+- Contraction Expansion
+- Punctuation Removal
+- Lowercasing
+- Stopword Removal
+- Tokenization
+- Lemmatization
+- Text Padding
+- Word Embeddings
+- LSTM Networks
+- Bidirectional RNNs
+- SimpleRNN
+- Binary Classification
+- Model Training
+- Model Evaluation
+- Sentiment Prediction
+- Text Visualization
+
+**Dataset:**
+
+- IMDB Movie Review Sentiment Analysis Dataset
+
+**Models Implemented:**
+
+- Deep LSTM Network
+- Bidirectional SimpleRNN Network
+
+The notebook also creates a custom set of movie reviews and evaluates the trained models on these examples. :contentReference[oaicite:1]{index=1}
+
+---
+
 ## 🧠 Neural Networks
 
-### 4. Keras Functional API
+### 5. Keras Functional API
 
 Implementation of neural networks using the **Keras Functional API**, demonstrating flexible model architecture design and multiple-input neural network structures.
 
@@ -148,7 +190,7 @@ Implementation of neural networks using the **Keras Functional API**, demonstrat
 
 ## ⚙️ Model Optimization
 
-### 5. Hyperparameter Tuning
+### 6. Hyperparameter Tuning
 
 Implementation of **hyperparameter tuning techniques** for improving model performance by experimenting with different model and training configurations.
 
@@ -187,6 +229,25 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Feature Extraction
 - CNN-Based Classification
 
+## 📝 Natural Language Processing
+
+- Text Preprocessing
+- Tokenization
+- Stopword Removal
+- Lemmatization
+- Word Embeddings
+- Sentiment Analysis
+- Text Classification
+- Sequence Padding
+
+## 🔄 Sequence Models
+
+- Recurrent Neural Networks
+- SimpleRNN
+- LSTM
+- Bidirectional RNN
+- Sequential Text Processing
+
 ## 🔗 Keras APIs
 
 - Sequential API
@@ -223,6 +284,12 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 ### Machine Learning
 
 - Scikit-Learn
+
+### Natural Language Processing
+
+- NLTK
+- spaCy
+- Scattertext
 
 ### Data Analysis
 
@@ -264,16 +331,19 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 
 - Practical Deep Learning Implementations
 - Step-by-Step Jupyter Notebooks
-- Neural Network Architectures
 - CNN-Based Image Classification
 - AlexNet Implementation
 - LeNet Implementation
 - MNIST Digit Classification
 - CIFAR-10 Image Classification
+- LSTM-Based Text Classification
+- Bidirectional RNN Implementation
+- IMDB Sentiment Analysis
 - Keras Sequential API
 - Keras Functional API
 - Multiple Input Neural Networks
 - Hyperparameter Tuning
+- Text Preprocessing
 - Data Preprocessing
 - Model Training and Evaluation
 - Performance Visualization
@@ -289,10 +359,18 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Neural Networks
 - Convolutional Neural Networks
 - Computer Vision
+- Natural Language Processing
+- Text Classification
+- Sentiment Analysis
+- Recurrent Neural Networks
+- LSTM Networks
+- Bidirectional RNNs
 - Image Classification
-- Handwritten Digit Recognition
 - Image Preprocessing
+- Text Preprocessing
 - Data Augmentation
+- Tokenization
+- Lemmatization
 - TensorFlow & Keras
 - Sequential API
 - Functional API
@@ -318,6 +396,14 @@ This repository helps in understanding:
 - MNIST Digit Classification
 - CIFAR-10 Image Classification
 - Computer Vision
+- Natural Language Processing
+- Sentiment Analysis
+- Recurrent Neural Networks
+- LSTM Networks
+- Bidirectional RNNs
+- Text Preprocessing
+- Word Embeddings
+- Sequence Processing
 - Sequential API
 - Functional API
 - Multiple Input Neural Networks
@@ -328,7 +414,7 @@ This repository helps in understanding:
 - Model Optimization
 - Model Training
 - Model Evaluation
-- Deep Learning Workflows
+- End-to-End Deep Learning Workflows
 
 ---
 
@@ -369,8 +455,10 @@ jupyter notebook
 * MobileNet
 * Object Detection
 * Image Segmentation
-* Recurrent Neural Networks
-* LSTM Networks
+* Advanced RNN Architectures
+* GRU Networks
+* Attention Mechanisms
+* Transformers
 * Autoencoders
 * Generative AI Projects
 * Advanced Hyperparameter Optimization
