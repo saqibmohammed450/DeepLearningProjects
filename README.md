@@ -18,7 +18,7 @@
 
 # 📖 About
 
-**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, natural language processing, model optimization, and real-world applications.
+**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, natural language processing, time series forecasting, model optimization, and real-world applications.
 
 The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, hyperparameter optimization, evaluation, visualization, and prediction.
 
@@ -34,6 +34,8 @@ The repository demonstrates different stages of the deep learning workflow, incl
 - 🔄 Recurrent Neural Networks
 - 🧬 LSTM Networks
 - ↔️ Bidirectional RNNs
+- 📈 Time Series Forecasting
+- 📊 Stock Price Prediction
 - 🏗️ Neural Network Architectures
 - 🔗 Keras Sequential & Functional APIs
 - ⚙️ Hyperparameter Tuning
@@ -121,18 +123,14 @@ Implementation of the **LeNet convolutional neural network architecture** for ha
 
 ### 4. LSTM & Bidirectional RNN - IMDB Sentiment Analysis
 
-Implementation of **LSTM and Bidirectional SimpleRNN architectures** for binary sentiment classification of movie reviews using the IMDB Movie Review Sentiment Analysis dataset. The notebook includes extensive text preprocessing, sequence tokenization, padding, model training, evaluation, and sentiment prediction. :contentReference[oaicite:0]{index=0}
+Implementation of **LSTM and Bidirectional RNN architectures** for binary sentiment classification of movie reviews using the IMDB dataset.
 
 **Topics Covered:**
 
 - Natural Language Processing
 - Sentiment Analysis
 - Text Classification
-- Text Cleaning
-- Contraction Expansion
-- Punctuation Removal
-- Lowercasing
-- Stopword Removal
+- Text Preprocessing
 - Tokenization
 - Lemmatization
 - Text Padding
@@ -144,24 +142,60 @@ Implementation of **LSTM and Bidirectional SimpleRNN architectures** for binary 
 - Model Training
 - Model Evaluation
 - Sentiment Prediction
-- Text Visualization
 
 **Dataset:**
 
 - IMDB Movie Review Sentiment Analysis Dataset
 
+---
+
+## 📈 Time Series
+
+### 5. Time Series Modelling - Google Stock Price Prediction
+
+Implementation of **Recurrent Neural Networks and LSTM networks** for time series forecasting using historical Google stock price data.
+
+The project uses previous time steps to predict future stock prices and compares the performance of a standard RNN with an LSTM model.
+
+**Topics Covered:**
+
+- Time Series Analysis
+- Stock Price Prediction
+- Sequential Data
+- Data Scaling
+- Time Step Generation
+- Sequence Modeling
+- Recurrent Neural Networks
+- LSTM Networks
+- RNN vs LSTM
+- Model Training
+- Model Validation
+- Model Evaluation
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Prediction Visualization
+
+**Dataset:**
+
+- Google Stock Price Dataset
+
 **Models Implemented:**
 
-- Deep LSTM Network
-- Bidirectional SimpleRNN Network
+- Recurrent Neural Network (RNN)
+- Long Short-Term Memory (LSTM)
 
-The notebook also creates a custom set of movie reviews and evaluates the trained models on these examples. :contentReference[oaicite:1]{index=1}
+**Model Evaluation:**
+
+- RNN MSE: `0.00997`
+- LSTM MSE: `0.00060`
+
+The LSTM model achieves a lower MSE than the standard RNN on the test set. :contentReference[oaicite:0]{index=0}
 
 ---
 
 ## 🧠 Neural Networks
 
-### 5. Keras Functional API
+### 6. Keras Functional API
 
 Implementation of neural networks using the **Keras Functional API**, demonstrating flexible model architecture design and multiple-input neural network structures.
 
@@ -190,7 +224,7 @@ Implementation of neural networks using the **Keras Functional API**, demonstrat
 
 ## ⚙️ Model Optimization
 
-### 6. Hyperparameter Tuning
+### 7. Hyperparameter Tuning
 
 Implementation of **hyperparameter tuning techniques** for improving model performance by experimenting with different model and training configurations.
 
@@ -247,6 +281,19 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - LSTM
 - Bidirectional RNN
 - Sequential Text Processing
+- Time Series Modeling
+- Sequence Prediction
+
+## 📈 Time Series
+
+- Time Series Forecasting
+- Stock Price Prediction
+- Sequential Data
+- Time Step Generation
+- Data Scaling
+- RNN-Based Forecasting
+- LSTM-Based Forecasting
+- Model Comparison
 
 ## 🔗 Keras APIs
 
@@ -315,15 +362,16 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 2. Data Preprocessing
 3. Data Preparation
 4. Feature Processing
-5. Model Architecture Design
-6. Model Compilation
-7. Hyperparameter Configuration
-8. Model Training
-9. Validation
-10. Model Evaluation
-11. Model Optimization
-12. Prediction
-13. Performance Analysis
+5. Sequence Generation
+6. Model Architecture Design
+7. Model Compilation
+8. Hyperparameter Configuration
+9. Model Training
+10. Validation
+11. Model Evaluation
+12. Model Optimization
+13. Prediction
+14. Performance Analysis
 
 ---
 
@@ -339,6 +387,9 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - LSTM-Based Text Classification
 - Bidirectional RNN Implementation
 - IMDB Sentiment Analysis
+- Time Series Forecasting
+- Stock Price Prediction
+- RNN and LSTM Comparison
 - Keras Sequential API
 - Keras Functional API
 - Multiple Input Neural Networks
@@ -365,6 +416,9 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Recurrent Neural Networks
 - LSTM Networks
 - Bidirectional RNNs
+- Time Series Forecasting
+- Stock Price Prediction
+- Sequence Modeling
 - Image Classification
 - Image Preprocessing
 - Text Preprocessing
@@ -404,6 +458,9 @@ This repository helps in understanding:
 - Text Preprocessing
 - Word Embeddings
 - Sequence Processing
+- Time Series Forecasting
+- Stock Price Prediction
+- RNN vs LSTM
 - Sequential API
 - Functional API
 - Multiple Input Neural Networks
@@ -459,6 +516,7 @@ jupyter notebook
 * GRU Networks
 * Attention Mechanisms
 * Transformers
+* Advanced Time Series Forecasting
 * Autoencoders
 * Generative AI Projects
 * Advanced Hyperparameter Optimization
