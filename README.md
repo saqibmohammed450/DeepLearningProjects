@@ -1,4 +1,4 @@
-<div align="center">
+div align="center">
 
 # 🧠 Deep Learning Projects
 
@@ -18,9 +18,9 @@
 
 # 📖 About
 
-**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, natural language processing, time series forecasting, model optimization, and real-world applications.
+**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, natural language processing, time series forecasting, transfer learning, model optimization, and real-world applications.
 
-The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, hyperparameter optimization, evaluation, visualization, and prediction.
+The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, transfer learning, hyperparameter optimization, evaluation, visualization, and prediction.
 
 ---
 
@@ -35,7 +35,8 @@ The repository demonstrates different stages of the deep learning workflow, incl
 - 🧬 LSTM Networks
 - ↔️ Bidirectional RNNs
 - 📈 Time Series Forecasting
-- 📊 Stock Price Prediction
+- 🔁 Transfer Learning
+- 🐎➡️🦓 Image-to-Image Translation
 - 🏗️ Neural Network Architectures
 - 🔗 Keras Sequential & Functional APIs
 - ⚙️ Hyperparameter Tuning
@@ -184,18 +185,45 @@ The project uses previous time steps to predict future stock prices and compares
 - Recurrent Neural Network (RNN)
 - Long Short-Term Memory (LSTM)
 
-**Model Evaluation:**
+---
 
-- RNN MSE: `0.00997`
-- LSTM MSE: `0.00060`
+## 🔄 Transfer Learning
 
-The LSTM model achieves a lower MSE than the standard RNN on the test set. :contentReference[oaicite:0]{index=0}
+### 6. Transfer Learning - Horse to Zebra Image Translation
+
+Implementation of **transfer learning and deep learning-based image-to-image translation** using a Horse2Zebra dataset.
+
+The project demonstrates working with a large-scale image dataset, preparing training and testing images, configuring TensorFlow for GPU-based training, and applying deep learning techniques to transform images between horse and zebra domains.
+
+**Topics Covered:**
+
+- Transfer Learning
+- Image-to-Image Translation
+- Computer Vision
+- Deep Learning
+- Image Preprocessing
+- Dataset Preparation
+- Training and Testing Data
+- GPU-Based Training
+- TensorFlow
+- Image Visualization
+- Model Training
+- Image Transformation
+
+**Dataset:**
+
+- Horse2Zebra Dataset
+
+**Domains:**
+
+- Horse → Zebra
+- Zebra → Horse
 
 ---
 
 ## 🧠 Neural Networks
 
-### 6. Keras Functional API
+### 7. Keras Functional API
 
 Implementation of neural networks using the **Keras Functional API**, demonstrating flexible model architecture design and multiple-input neural network structures.
 
@@ -224,7 +252,7 @@ Implementation of neural networks using the **Keras Functional API**, demonstrat
 
 ## ⚙️ Model Optimization
 
-### 7. Hyperparameter Tuning
+### 8. Hyperparameter Tuning
 
 Implementation of **hyperparameter tuning techniques** for improving model performance by experimenting with different model and training configurations.
 
@@ -262,6 +290,8 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Data Augmentation
 - Feature Extraction
 - CNN-Based Classification
+- Image-to-Image Translation
+- Transfer Learning
 
 ## 📝 Natural Language Processing
 
@@ -294,6 +324,15 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - RNN-Based Forecasting
 - LSTM-Based Forecasting
 - Model Comparison
+
+## 🔁 Transfer Learning
+
+- Transfer Learning
+- Feature Reuse
+- Image-to-Image Translation
+- Domain Transformation
+- Computer Vision Applications
+- GPU-Based Model Training
 
 ## 🔗 Keras APIs
 
@@ -348,9 +387,14 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Matplotlib
 - Seaborn
 
+### Image Processing
+
+- PIL
+
 ### Development Tools
 
 - Jupyter Notebook
+- Google Colab
 - Git
 - GitHub
 
@@ -362,7 +406,7 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 2. Data Preprocessing
 3. Data Preparation
 4. Feature Processing
-5. Sequence Generation
+5. Image / Sequence Preparation
 6. Model Architecture Design
 7. Model Compilation
 8. Hyperparameter Configuration
@@ -390,12 +434,15 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Time Series Forecasting
 - Stock Price Prediction
 - RNN and LSTM Comparison
+- Transfer Learning
+- Image-to-Image Translation
+- Horse-to-Zebra Image Transformation
 - Keras Sequential API
 - Keras Functional API
 - Multiple Input Neural Networks
 - Hyperparameter Tuning
 - Text Preprocessing
-- Data Preprocessing
+- Image Preprocessing
 - Model Training and Evaluation
 - Performance Visualization
 - Model Optimization Techniques
@@ -419,6 +466,8 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Time Series Forecasting
 - Stock Price Prediction
 - Sequence Modeling
+- Transfer Learning
+- Image-to-Image Translation
 - Image Classification
 - Image Preprocessing
 - Text Preprocessing
@@ -461,6 +510,8 @@ This repository helps in understanding:
 - Time Series Forecasting
 - Stock Price Prediction
 - RNN vs LSTM
+- Transfer Learning
+- Image-to-Image Translation
 - Sequential API
 - Functional API
 - Multiple Input Neural Networks
@@ -505,8 +556,7 @@ jupyter notebook
 
 # 🌟 Future Improvements
 
-* Transfer Learning
-* ResNet
+* Transfer Learning with ResNet
 * VGGNet
 * InceptionNet
 * MobileNet
