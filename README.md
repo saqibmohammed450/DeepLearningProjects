@@ -18,9 +18,9 @@ div align="center">
 
 # 📖 About
 
-**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, natural language processing, time series forecasting, transfer learning, model optimization, and real-world applications.
+**Deep Learning Projects** is a collection of practical implementations covering deep learning concepts, neural network architectures, computer vision, natural language processing, time series forecasting, transfer learning, recommender systems, model optimization, and real-world applications.
 
-The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, transfer learning, hyperparameter optimization, evaluation, visualization, and prediction.
+The repository demonstrates different stages of the deep learning workflow, including data preparation, preprocessing, model architecture design, training, hyperparameter optimization, evaluation, visualization, and prediction.
 
 ---
 
@@ -36,8 +36,9 @@ The repository demonstrates different stages of the deep learning workflow, incl
 - ↔️ Bidirectional RNNs
 - 📈 Time Series Forecasting
 - 🔁 Transfer Learning
-- 🐎➡️🦓 Image-to-Image Translation
-- 🏗️ Neural Network Architectures
+- 🔗 Wide & Deep Networks
+- ⚡ Deep & Cross Networks
+- 🏗️ Advanced Neural Network Architectures
 - 🔗 Keras Sequential & Functional APIs
 - ⚙️ Hyperparameter Tuning
 - 📊 Model Training & Evaluation
@@ -180,20 +181,13 @@ The project uses previous time steps to predict future stock prices and compares
 
 - Google Stock Price Dataset
 
-**Models Implemented:**
-
-- Recurrent Neural Network (RNN)
-- Long Short-Term Memory (LSTM)
-
 ---
 
 ## 🔄 Transfer Learning
 
 ### 6. Transfer Learning - Horse to Zebra Image Translation
 
-Implementation of **transfer learning and deep learning-based image-to-image translation** using a Horse2Zebra dataset.
-
-The project demonstrates working with a large-scale image dataset, preparing training and testing images, configuring TensorFlow for GPU-based training, and applying deep learning techniques to transform images between horse and zebra domains.
+Implementation of **transfer learning and deep learning-based image-to-image translation** using the Horse2Zebra dataset.
 
 **Topics Covered:**
 
@@ -221,9 +215,42 @@ The project demonstrates working with a large-scale image dataset, preparing tra
 
 ---
 
+## 🔗 Advanced Neural Network Architectures
+
+### 7. Wide & Deep Cross Networks
+
+Implementation of advanced neural network architectures combining **Wide & Deep learning with Cross Networks** for learning both memorization and generalization patterns.
+
+The project demonstrates how wide components can capture explicit feature interactions while deep components learn complex nonlinear relationships, with cross layers used to efficiently model feature combinations.
+
+**Topics Covered:**
+
+- Wide & Deep Networks
+- Deep Neural Networks
+- Cross Networks
+- Feature Interactions
+- Feature Engineering
+- Embeddings
+- Dense Layers
+- Neural Network Architecture
+- Model Training
+- Model Evaluation
+- Regression
+- Deep Learning for Structured Data
+
+**Architecture Concepts:**
+
+- Wide Component
+- Deep Component
+- Cross Network
+- Feature Embeddings
+- Combined Model Architecture
+
+---
+
 ## 🧠 Neural Networks
 
-### 7. Keras Functional API
+### 8. Keras Functional API
 
 Implementation of neural networks using the **Keras Functional API**, demonstrating flexible model architecture design and multiple-input neural network structures.
 
@@ -252,7 +279,7 @@ Implementation of neural networks using the **Keras Functional API**, demonstrat
 
 ## ⚙️ Model Optimization
 
-### 8. Hyperparameter Tuning
+### 9. Hyperparameter Tuning
 
 Implementation of **hyperparameter tuning techniques** for improving model performance by experimenting with different model and training configurations.
 
@@ -334,6 +361,15 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Computer Vision Applications
 - GPU-Based Model Training
 
+## 🔗 Advanced Architectures
+
+- Wide & Deep Networks
+- Cross Networks
+- Feature Interactions
+- Feature Embeddings
+- Memorization & Generalization
+- Deep & Cross Learning
+
 ## 🔗 Keras APIs
 
 - Sequential API
@@ -405,8 +441,8 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 1. Data Collection
 2. Data Preprocessing
 3. Data Preparation
-4. Feature Processing
-5. Image / Sequence Preparation
+4. Feature Engineering
+5. Image / Text / Sequence Preparation
 6. Model Architecture Design
 7. Model Compilation
 8. Hyperparameter Configuration
@@ -437,6 +473,9 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Transfer Learning
 - Image-to-Image Translation
 - Horse-to-Zebra Image Transformation
+- Wide & Deep Networks
+- Cross Networks
+- Feature Interaction Modeling
 - Keras Sequential API
 - Keras Functional API
 - Multiple Input Neural Networks
@@ -468,6 +507,10 @@ Implementation of **hyperparameter tuning techniques** for improving model perfo
 - Sequence Modeling
 - Transfer Learning
 - Image-to-Image Translation
+- Wide & Deep Learning
+- Cross Networks
+- Feature Interaction Modeling
+- Feature Embeddings
 - Image Classification
 - Image Preprocessing
 - Text Preprocessing
@@ -512,6 +555,10 @@ This repository helps in understanding:
 - RNN vs LSTM
 - Transfer Learning
 - Image-to-Image Translation
+- Wide & Deep Networks
+- Cross Networks
+- Feature Interactions
+- Feature Embeddings
 - Sequential API
 - Functional API
 - Multiple Input Neural Networks
@@ -570,6 +617,7 @@ jupyter notebook
 * Autoencoders
 * Generative AI Projects
 * Advanced Hyperparameter Optimization
+* Advanced Recommender Systems
 * Model Deployment
 * Deep Learning APIs
 * Cloud Deployment
